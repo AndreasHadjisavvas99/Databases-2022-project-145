@@ -1,0 +1,7 @@
+SELECT sf1.field_id, sf2.field_id as field_id2, COUNT(1) FROM scientific_field_project AS sf1
+JOIN scientific_field_project AS sf2
+ON sf1.project_id=sf2.project_id	
+WHERE sf1.field_id<sf2.field_id
+GROUP BY sf1.field_id,sf2.field_id
+ORDER BY COUNT(1) DESC
+LIMIT 3

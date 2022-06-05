@@ -1,0 +1,15 @@
+create view project_duration 
+as  
+select
+project_id ,
+end_date - start_date as duration,
+exec_id
+from project;
+
+//////////// Gia na kaneis apla select kai na deis
+
+select end_date - start_date AS duration from project ;
+
+
+/////// to delete a view
+drop view project_duration

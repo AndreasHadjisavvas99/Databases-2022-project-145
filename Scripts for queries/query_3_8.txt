@@ -1,0 +1,6 @@
+SELECT r.first_name,r.last_name,r.researcher_id, COUNT(pwod.project_id) as total from researcher as r
+JOIN works_on_project as wp
+ON r.researcher_id=wp.researcher_id 
+JOIN projects_wo_deliverables as pwod
+ON wp.project_id=pwod.project_id
+GROUP BY r.Researcher_id having COUNT(pwod.project_id) > 4 ORDER BY total  DESC

@@ -1,0 +1,4 @@
+create view funded_projects as
+select project_id,title,funding ,start_date,end_date,org_id,supervisor_id
+from project
+where funding is not null ;

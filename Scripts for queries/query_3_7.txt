@@ -1,0 +1,10 @@
+select exec.name as Executive_name, org.company_id , sum(funding) as total_amount from project as p
+JOIN executive as exec
+ON exec.exec_id=p.exec_id
+JOIN organization as org
+On org.org_id=p.org_id
+JOIN company as c
+ON c.company_id =org.company_id 
+Group BY exec.name, p.title,org.company_id 
+order by total_amount desc
+limit 5

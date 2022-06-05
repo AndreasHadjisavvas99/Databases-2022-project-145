@@ -1,0 +1,22 @@
+- ena button p na grafei show all programms kai na ilopiei to pio kato query:
+
+->
+select name from  programm
+
+- ena button p na grafei show all projects kai na ilopiei to pio kato query:
+
+select title, project_id from  project
+
+- ena text box pou na dexetai to project_id (mandatory) kai optional
+διάρκεια (in days ) kai  στέλεχος που χειρίζεται τη χρηματοδότηση.
+
+
+select r.first_name,r.last_name,r.researcher_id from researcher as r 
+JOIN works_on_project as wp
+on r.researcher_id = wp.researcher_id
+JOIN project as p
+on p.project_id=wp.project_id
+where p.title = 'Pfeffer-Padberg' or (p.end_date-p.start_date= '120' ) or p.exec_id = '19' 
+Group BY r.first_name,r.last_name, r.researcher_id ;
+
+

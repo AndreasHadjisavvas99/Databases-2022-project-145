@@ -1,0 +1,1 @@
+create view active_projects as select * from project where end_date > (select CURRENT_TIMESTAMP);

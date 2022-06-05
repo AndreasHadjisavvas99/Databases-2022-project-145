@@ -1,0 +1,19 @@
+SELECT r.first_name,r.last_name,r.researcher_id, COUNT(wp.project_id) as count from researcher as r
+JOIN works_on_project as wp
+ON r.researcher_id=wp.researcher_id
+JOIN researchers_under40 as r40
+ON wp.researcher_id=r40.researcher_id
+JOIN active_projects as ap
+On wp.project_id=ap.project_id
+GROUP BY r.Researcher_id ORDER BY count  DESC
+
+
+
+
+////////////////////////////////////////////////
+
+SELECT researcher_id, COUNT(*) 
+FROM works_on_project 
+where researcher_id IN (select researcher_id from researchers_under40) 
+GROUP BY researcher_id
+order by count desc;

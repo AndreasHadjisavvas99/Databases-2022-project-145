@@ -1,0 +1,4 @@
+select project.title from project where project.project_id IN(select project_id from works_on_project where researcher_id = (select researcher_id from researcher where first_name = ? and last_name = ?))
+
+
+ select scientific_field.name from scientific_field where scientific_field.field_id in (select field_id from scientific_field_project where project_id = (select project_id from project where title = ?))

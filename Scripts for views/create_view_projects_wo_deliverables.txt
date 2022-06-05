@@ -1,0 +1,5 @@
+create view projects_wo_deliverables as
+select project_id
+from project
+where project_id not in (select project_id from deliverables)
+order by project_id ;

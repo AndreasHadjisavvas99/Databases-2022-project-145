@@ -1,0 +1,4 @@
+select title from active_projects where project_id IN (select project_id from scientific_field_project where field_id = (select field_id from scientific_field where name = ?)) and funding > 0
+
+
+select first_name,last_name from researcher where researcher_id in (select distinct researcher_id from works_on_project where project_id in (select project_id from active_projects where project_id in(select project_id from scientific_field_project where field_id = (select field_id from scientific_field where name = ?))))
