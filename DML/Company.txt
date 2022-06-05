@@ -1,0 +1,5 @@
+insert into company (company_id, equity) values (1, 35000);
+insert into company (company_id, equity) values (2, 37000);
+insert into company (company_id, equity) values (3, 94000);
+insert into company (company_id, equity) values (4, 40000);
+insert into company (company_id, equity) values (5, 70000);

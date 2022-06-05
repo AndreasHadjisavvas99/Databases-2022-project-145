@@ -1,0 +1,15 @@
+insert into researchcenter (resce_id, govbudg, privbudg) values (1, 56000, 32000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (2, 46000, 65000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (3, 92000, 59000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (4, 25000, 85000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (5, 18000, 40000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (6, 22000, 37000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (7, 78000, 38000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (8, 83000, 45000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (9, 55000, 40000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (10, 25000, 10000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (11, 33000, 40000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (12, 52000, 50000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (13, 62000, 73000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (14, 23000, 74000);
+insert into researchcenter (resce_id, govbudg, privbudg) values (15, 43000, 45000);

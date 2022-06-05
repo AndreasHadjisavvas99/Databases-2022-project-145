@@ -1,0 +1,8 @@
+insert into scientific_field values (1, 'Computer Science');
+insert into scientific_field values (2, 'Mathematics');
+insert into scientific_field values (3, 'Logistics');
+insert into scientific_field values (4, 'Artificial Intelligence');
+insert into scientific_field values (5, 'Astronomy');
+insert into scientific_field values (6, 'Astrophysics');
+insert into scientific_field values (7, 'Biochemistry');
+insert into scientific_field values (8, 'Economics');
