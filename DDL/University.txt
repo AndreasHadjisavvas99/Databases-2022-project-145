@@ -1,0 +1,10 @@
+insert into University (ID_university, GovBudg) values (1, 98);
+insert into University (ID_university, GovBudg) values (2, 5);
+insert into University (ID_university, GovBudg) values (3, 72);
+insert into University (ID_university, GovBudg) values (4, 68);
+insert into University (ID_university, GovBudg) values (5, 57);
+insert into University (ID_university, GovBudg) values (6, 75);
+insert into University (ID_university, GovBudg) values (7, 38);
+insert into University (ID_university, GovBudg) values (8, 52);
+insert into University (ID_university, GovBudg) values (9, 57);
+insert into University (ID_university, GovBudg) values (10, 75);
