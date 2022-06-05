@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="project_145_artifact">
+    <output-path>$PROJECT_DIR$/out/artifacts/project_145_artifact</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="project_145" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/postgresql-42.3.6.jar" />
+        </element>
+      </element>
+      <element id="directory" name="Resources">
+        <element id="dir-copy" path="$PROJECT_DIR$" />
+      </element>
+    </root>
+  </artifact>
+</component>
