@@ -5,7 +5,7 @@ import javax.swing.*;
 import Panels.query_3_6;
 import Panels.query_3_8;
 import Panels.query_3_5;
-
+import Panels.query_3_1;
 public class Main {
 
     public static void main(String[] args) {

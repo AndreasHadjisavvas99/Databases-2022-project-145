@@ -13,6 +13,7 @@ public class main_panel extends  JFrame{
     private JButton btnquery_3_6;
     private JButton btnquery_3_7;
     private JButton btnquery_3_8;
+    private JButton btnquery_3_1;
 
 
     public main_panel()  {
