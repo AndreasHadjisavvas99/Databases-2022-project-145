@@ -17,6 +17,7 @@ public class main_panel extends  JFrame{
     private JButton deleteresearcherButton;
     private JButton addResearcherButton;
     private JButton showResearcherListButton;
+    private JButton updateResearcherButton;
 
 
     public main_panel()  {
@@ -108,6 +109,15 @@ public class main_panel extends  JFrame{
             public void actionPerformed(ActionEvent e) {
                 getContentPane().removeAll();
                 getContentPane().add(new show_researchers().show_researchers);
+                setSize(300,300);
+                setVisible(true);
+            }
+        });
+        updateResearcherButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                getContentPane().removeAll();
+                getContentPane().add(new update_researchers().update_researcher);
                 setSize(300,300);
                 setVisible(true);
             }
