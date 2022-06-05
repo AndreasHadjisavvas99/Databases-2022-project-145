@@ -1,7 +1,7 @@
 package Interfaces;
 
 public interface Provider {
-    String _cs = "jdbc:postgresql://localhost:5432/Databases2022team145",
+    String _cs = "jdbc:postgresql://localhost:5432/test_database",
             _user = "postgres",
-            _pwd = "diesel24800";
+            _pwd = "mustaki124";
 }

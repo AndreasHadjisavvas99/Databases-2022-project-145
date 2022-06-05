@@ -1,11 +1,14 @@
-import Panels.panel2;
-import Panels.panel1;
 import Panels.main_panel;
 import javax.swing.*;
+
+
+import Panels.query_3_1;
+import Panels.query_3_2;
+import Panels.query_3_3;
+import Panels.query_3_5;
 import Panels.query_3_6;
 import Panels.query_3_8;
-import Panels.query_3_5;
-import Panels.query_3_1;
+import Panels.researcher;
 public class Main {
 
     public static void main(String[] args) {
